@@ -1,4 +1,3 @@
-// src/app/components/sidenav.tsx
 'use client'
 
 interface SideNavProps {

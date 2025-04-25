@@ -22,7 +22,6 @@ export default function ImageSlideshow() {
 
   return (
     <div className="w-full h-screen overflow-hidden relative bg-black">
-      {/* Slide Track */}
       <div
         ref={containerRef}
         className="flex transition-transform duration-[1500ms] ease-in-out"
@@ -45,7 +44,6 @@ export default function ImageSlideshow() {
         ))}
       </div>
 
-      {/* Text overlay */}
       <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-6xl md:text-8xl font-bold text-yellow-400 drop-shadow-lg">
           Ryan&apos;s

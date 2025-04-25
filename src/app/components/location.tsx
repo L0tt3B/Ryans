@@ -3,7 +3,6 @@
 export default function PubLocation() {
   return (
     <section className="bg-black text-white w-full py-12 px-6">
-      {/* Divider */}
       <div
         className="
           w-full        

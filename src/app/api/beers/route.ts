@@ -9,10 +9,11 @@ export async function GET() {
       .readdirSync(beersDir)
       .filter((f) => /\.(jpe?g|png|gif|svg|webp)$/i.test(f));
     return NextResponse.json({ files });
-  } catch (err: any) {
+  } catch (err: unknown) {
     console.error("Beers API Error:", err);
+    const message = err instanceof Error ? err.message : String(err);
     return NextResponse.json(
-      { error: err.message },
+      { error: message },
       { status: 500 }
     );
   }

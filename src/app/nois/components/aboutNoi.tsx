@@ -14,10 +14,7 @@ export default function AboutNoi() {
         />
       <p className="max-w-xl mx-auto text-lg">
       My name is Noi, I am a Thai mum and I love cooking, and eating of course. I always use fresh, flavoursome ingredients for my authentic Thai dishes.
-
-​
-
-You can find Noi's Thai Kitchen at Ryan's Bar, Northfields Avenue, Ealing where you can eat Tuesday to Saturday  from  12 - 9.30pm. You can also order delivery or pickup with Deliveroo and UberEATS.
+      You can find Noi&apos;s Thai Kitchen at Ryan&apos;s Bar, Northfields Avenue, Ealing where you can eat Tuesday to Saturday  from  12 - 9.30pm. You can also order delivery or pickup with Deliveroo and UberEATS.
       </p>
     </div>
   );

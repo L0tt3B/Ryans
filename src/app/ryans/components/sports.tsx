@@ -1,14 +1,13 @@
-// sports.tsx
 "use client";
 
 import { useEffect, useState, useRef } from "react";
 
 type Event = {
   fixture: string;
-  time: string;        // "HH:MM"
+  time: string;       
   competition: string;
-  channels: string[];  // array of titles
-  iso: string;         // full ISO timestamp
+  channels: string[]; 
+  iso: string;        
 };
 
 const PAGE_SIZE = 5;
@@ -54,7 +53,6 @@ export default function LiveSportsWidget() {
       const finalIdx =
         targetIdx >= 0 ? targetIdx : data.Today.length - 1;
 
-      // page‐align the index
       const pageStart =
         Math.floor(finalIdx / PAGE_SIZE) * PAGE_SIZE;
       setIndex(pageStart);
@@ -95,7 +93,7 @@ export default function LiveSportsWidget() {
             onClick={() => {
               setActiveDay(day);
               setIndex(0);
-              didAutoSeek.current = false; // allow re-seek if you switch back
+              didAutoSeek.current = false; 
             }}
             className={`px-4 py-2 rounded ${
               day === activeDay
@@ -130,7 +128,6 @@ export default function LiveSportsWidget() {
         </ul>
       )}
 
-      {/* Pagination Controls */}
       <div className="flex justify-center items-center mt-6 gap-2">
         <button
           onClick={goFirst}

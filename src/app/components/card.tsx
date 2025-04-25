@@ -47,8 +47,6 @@ export function Card({
         "
         style={{ backgroundImage: `url(${src})` }}
       />
-
-      {/* text half */}
       <div className="w-full md:w-1/2 px-6 md:px-12 space-y-6 mt-8 md:mt-0 text-center md:text-left">
         <h2 className="text-white text-4xl md:text-5xl italic">{title}</h2>
         <p className="text-yellow-700 text-xl">{subtitle}</p>

@@ -14,7 +14,6 @@ export default function Navbar() {
     e.preventDefault()
     setOpen(false)
 
-    // Home — scroll to top of current page
     if (target === 'home') {
       window.scrollTo({ top: 0, behavior: 'smooth' })
     }
@@ -28,7 +27,6 @@ export default function Navbar() {
       router.push('/nois')
     }
 
-    // Contact → scroll to #contact section
     else if (target === 'contact') {
       if (pathname !== '/') {
         router.push('/#contact') // make sure it's anchored on the homepage
@@ -42,15 +40,12 @@ export default function Navbar() {
     <>
       <header className="fixed top-0 w-full border-b border-yellow-700/50 bg-black/80 z-50">
         <nav className="max-w-7xl mx-auto px-6 flex justify-between items-center h-16">
-          {/* Logo click → top of homepage */}
           <button
             onClick={(e) => handleNav(e, 'main')}
             className="text-lg font-bold text-yellow-400 italic cursor-pointer"
           >
-            Ryan's
+            Ryan&apos;s
           </button>
-
-          {/* Main nav */}
           <div className="hidden md:flex space-x-8" style={{ fontFamily: "'Cinzel', serif" }}>
             {[
               { label: 'Home', target: 'home' },
@@ -69,7 +64,6 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* Mobile burger */}
           <div className="md:hidden">
             <button
               aria-label={open ? 'Close menu' : 'Open menu'}
