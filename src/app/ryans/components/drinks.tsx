@@ -36,7 +36,7 @@ export default function DrinksSection() {
           return (
             <div key={file} className="relative w-32 h-32">
               <Image
-                src={`/beers/${file}`}
+                src={`/Ryans/beers/${file}`}
                 alt={alt}
                 fill
                 style={{ objectFit: "cover" }}

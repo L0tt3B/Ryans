@@ -25,7 +25,7 @@ export default function Reviews() {
     <div className="flex flex-col items-center my-12 px-4">
       <div
         className="w-full max-w-2xl aspect-[2.5/1] bg-no-repeat bg-center bg-contain flex flex-col justify-center items-center text-center px-8"
-        style={{ backgroundImage: "url('/reviewborder.png')" }}
+        style={{ backgroundImage: "url('/Ryans/reviewborder.png')" }}
       >
         <p className="text-base md:text-lg italic text-white leading-tight max-w-[80%] break-words">
           &quot;{review.quote}&quot;

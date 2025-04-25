@@ -3,15 +3,15 @@
 import Image from "next/image";
 
 const foodImages = [
-  "/gallery/r1.jpg",
-  "/gallery/r2.jpg",
-  "/gallery/r3.jpg",
-  "/gallery/r4.jpg",
-  "/gallery/r5.jpg",
-  "/gallery/r6.jpg",
-  "/gallery/r7.jpg",
-  "/gallery/r8.jpg",
-  "/gallery/r9.jpg",
+  "/Ryans/gallery/r1.jpg",
+  "/Ryans/gallery/r2.jpg",
+  "/Ryans/gallery/r3.jpg",
+  "/Ryans/gallery/r4.jpg",
+  "/Ryans/gallery/r5.jpg",
+  "/Ryans/gallery/r6.jpg",
+  "/Ryans/gallery/r7.jpg",
+  "/Ryans/gallery/r8.jpg",
+  "/Ryans/gallery/r9.jpg",
 ];
 
 export default function FoodGallery() {

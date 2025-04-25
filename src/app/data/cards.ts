@@ -13,7 +13,7 @@ export interface CardData {
     {
       id: "bar",
       title: "- Ryan's Bar -",
-      src: "/ryan-exterior.jpg",
+      src: "/Ryans/ryan-exterior.jpg",
       alt: "Exterior of Ryan's Bar",
       subtitle: "Pints",
       desc: "Originally known as Duffys bar. Rebranded to Ryan's in 2020.",
@@ -23,7 +23,7 @@ export interface CardData {
     {
       id: "kitchen",
       title: "- Noi's Kitchen -",
-      src: "/noi-demo.jpg",
+      src: "/Ryans/noi-demo.jpg",
       alt: "Noi's Thai Kitchen",
       subtitle: "Authentic Thai Food",
       desc: "Discover Noi's menu",

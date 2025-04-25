@@ -2,9 +2,9 @@
 import { useEffect, useRef, useState } from "react";
 
 const slides = [
-  "/food/s1.jpeg",
-  "/food/s2.jpeg",
-  "/food/s3.jpg",
+  "/Ryans/food/s1.jpeg",
+  "/Ryans/food/s2.jpeg",
+  "/Ryans/food/s3.jpg",
 ];
 
 export default function NoiSlideshow() {

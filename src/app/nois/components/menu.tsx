@@ -3,9 +3,9 @@ import Image from "next/image";
 import { useState } from "react";
 
 const menuImages = [
-  { src: "/gallery/oldmenu3.jpg", alt: "Menu Page 1" },
-  { src: "/gallery/oldmenu2.jpg", alt: "Menu Page 2" },
-  { src: "/gallery/oldmenu.jpg", alt: "Menu Page 3" },
+  { src: "/Ryans/gallery/oldmenu3.jpg", alt: "Menu Page 1" },
+  { src: "/Ryans/gallery/oldmenu2.jpg", alt: "Menu Page 2" },
+  { src: "/Ryans/gallery/oldmenu.jpg", alt: "Menu Page 3" },
 ];
 
 export default function MenuSection() {

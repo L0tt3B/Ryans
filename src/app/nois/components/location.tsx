@@ -6,7 +6,7 @@ export default function DeliveryLocation() {
     <section className="bg-black text-white w-full py-12 px-6">
       <div
         className="w-full h-44 lg:h-50 bg-no-repeat bg-center bg-contain"
-        style={{ backgroundImage: "url('/divider.png')" }}
+        style={{ backgroundImage: "url('/Ryans/divider.png')" }}
       />
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row md:space-x-12">
         <div className="w-full md:w-1/2 mb-8 md:mb-0 content-center pl-14 sm:text-center">

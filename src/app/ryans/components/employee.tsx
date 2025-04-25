@@ -18,7 +18,7 @@ export default function EmployeeOfMonth() {
         {/* Guinness */}
         <div className="w-80 h-80 flex-shrink-0 overflow-hidden rounded-lg shadow-lg relative z-10">
           <Image
-            src="/Guinness.jpg"
+            src="/Ryans/Guinness.jpg"
             alt="Employee of the Month: Guinness"
             fill
             className="object-cover object-[80%_80%] scale-[1.4] transition-transform"
@@ -26,14 +26,14 @@ export default function EmployeeOfMonth() {
         </div>
 
         <Image
-          src="/stars.png"
+          src="/Ryans/stars.png"
           alt="Gold star"
           width={130}
           height={130}
           className="absolute -top-10 -left-10 rotate-[-15deg] z-20"
         />
         <Image
-          src="/stars.png"
+          src="/Ryans/stars.png"
           alt="Gold star"
           width={130}
           height={130}
